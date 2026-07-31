@@ -6,7 +6,7 @@ import Navbar from './components/Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='container mx-auto px-4'>
+    <div className='container mx-auto px-8 lg:px-20'>
       <Navbar />
       <App />
     </div>
