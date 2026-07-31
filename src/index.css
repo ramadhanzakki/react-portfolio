@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
+/* ============================================
+   CUSTOM THEME - Tailwind v4
+   Di v4, semua konfigurasi tema ditulis di sini
+   menggunakan blok @theme, bukan di tailwind.config.js
+   ============================================ */
+@theme {
+    /* --- Palet Warna Warm & Cozy --- */
+    --color-cozy-bg:        #1C1917; /* Background utama (Dark Espresso / Stone-900) */
+    --color-cozy-card:      #292524; /* Background kartu/box (Stone-800) */
+    --color-cozy-border:    #44403C; /* Warna garis/border (Stone-700) */
+    --color-cozy-text:      #FAFAF9; /* Teks utama / Putih hangat (Stone-50) */
+    --color-cozy-muted:     #A8A29E; /* Teks sekunder / abu-abu hangat (Stone-400) */
+
+    /* --- Warna Brand / Aksen --- */
+    --color-brand-amber:      #F59E0B; /* Warna aksen emas/amber */
+    --color-brand-terracotta: #C2410C; /* Warna aksen oranye hangat */
+    --color-brand-cinnamon:   #9A3412; /* Warna aksen cokelat kemerahan */
+}
+
 @layer base{
   body{
     font-family: "Poppins", sans-serif;
