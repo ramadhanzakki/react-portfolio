@@ -10,7 +10,7 @@ const Hero = () => {
                     I'  m <span className="text-brand-terracotta">Ramadhan Zakki</span>
                 </h1>
                 <h2 className="text-2xl font-semibold text-cozy-text mb-4">First-year Computer Science student from Indonesia 🇮🇩.</h2>
-                <p className="text-base font-normal text-cozy-text mb-4">
+                <p className="text-base font-normal text-cozy-text mb-6 max-w-4/5">
                     I'm learning to build software and exploring the world of programming
                     step by step. I like turning ideas into small projects while improving
                     my coding skills along the way.
@@ -28,7 +28,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="relative ml-auto">
+            <div className="relative ml-auto Passengers, in a few moments, prepare yourself for your own safety. It is forbidden to open the train before the train completely stops. Thank you for choosing. when they could be Indonesia. See you on the next trip. Tier passengers in a few moments we will arrive at if you end your trip at Lida Station, please prepare yourself and check your logins for your own safety. It is permitted to open the train store before the train completely stops. Thank you for choosing where the clinic be Indonesia. See you on the next trip">
                 <img src="/public/img/photo ku-Picsart-AiImageEnhancer.png" alt="photo profile" className="mx-auto w-[500px]"/>
                 <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 translate-y-7    ">
                     <svg viewBox="0 0 200 200" width="500" xmlns="http://www.w3.org/2000/svg">
