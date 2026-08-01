@@ -9,12 +9,12 @@ const Hero = () => {
                 <h1 className="text-6xl font-bold text-cozy-text">
                     I'  m <span className="text-brand-terracotta">Ramadhan Zakki</span>
                 </h1>
-                <h2 className="text-2xl font-semibold text-cozy-text mb-4">First-year Computer Science student from Indonesia 🇮🇩.</h2>
-                <p className="text-base font-normal text-cozy-text mb-6 max-w-4/5">
+                <h2 className="text-2xl font-semibold text-cozy-text mb-4">College student with passionate about software engginer and AI</h2>
+                {/* <p className="text-base font-normal text-cozy-text mb-6 max-w-4/5">
                     I'm learning to build software and exploring the world of programming
                     step by step. I like turning ideas into small projects while improving
                     my coding skills along the way.
-                </p>
+                </p> */}
                 <div className="flex justify-start items-center gap-4 max-w-fit">
                     <div className="group">
                         <a href="#" className="flex justify-center items-center gap-1 py-4 px-6 border-2 border-brand-cinnamon bg-brand-cinnamon rounded-lg text-base font-medium group-hover:bg-brand-terracotta group-hover:border-brand-terracotta">
