@@ -7,8 +7,15 @@ const AboutMe = () => {
     return (
         <div className="py-32 grid grid-cols-2">
 
+            {/* Desc */}
+            <div className="w-full flex flex-col gap-1.5">
+                <h3 className="text-base font-normal uppercase px-3 py-1 text-shadow-cozy-bg bg-brand-cinnamon max-w-fit rounded-lg mb-2">About Me</h3>
+                <h2 className="text-2xl font-semibold text-cozy-text w-2/3">First-year Computer Science student from Indonesia</h2>
+                <p className="text-base font-normal text-cozy-muted w-4/5">I'm learning to build software and exploring the world of programming step by step. I like turning ideas into small projects while improving my coding skills along the way.</p>
+            </div>
+
             {/* Career */}
-            <div className="grid grid-cols-2 grid-rows-2 gap-8">
+            <div className="grid grid-cols-2 grid-rows-2 gap-12">
                 <div className="w-full flex justify-start items-center gap-3">
                     <div className="text-4xl bg-brand-cinnamon p-3 rounded-lg">
                         <IoCodeSlashSharp />
@@ -47,12 +54,6 @@ const AboutMe = () => {
                 </div>
             </div>
 
-            {/* Desc */}
-            <div>
-                <h3 className="text-base font-normal uppercase px-3 py-1 text-shadow-cozy-bg bg-brand-cinnamon max-w-fit rounded-lg mb-2">About Me</h3>
-                <h2>First-year Computer Science student from Indonesia</h2>
-                <p>I'm learning to build software and exploring the world of programming step by step. I like turning ideas into small projects while improving my coding skills along the way.</p>
-            </div>
         </div>
     )
 }
