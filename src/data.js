@@ -45,3 +45,27 @@ export const DataTools = [
         image: '/public/tools/git-original.svg'
     },
 ]
+
+export const Project = [
+    {
+        id: 1,
+        image: '/public/img/projects/project-1.png',
+        name: 'Sumber Manis Product Catalog',
+        description: 'Product catalog website for SMEs developed using the Laravel framework',
+        link: 'https://github.com/ramadhanzakki/katalog-sumbermanis'
+    },
+    {
+        id: 2,
+        image: '/public/img/projects/project-2.png',
+        name: 'PPM Profile',
+        description: 'Website for finding the dormitory (PPM) closest to the university ',
+        link: 'https://ppm.generus.app'
+    },
+    {
+        id: 3,
+        image: '/public/img/projects/project-3.png',
+        name: 'Personal Portfolio Website',
+        description: 'Personal portfolio website created to learn ReactJS',
+        link: 'https://github.com/ramadhanzakki/katalog-sumbermanis'
+    },
+]
