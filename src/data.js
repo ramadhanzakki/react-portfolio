@@ -46,7 +46,7 @@ export const DataTools = [
     },
 ]
 
-export const Project = [
+export const ProjectList = [
     {
         id: 1,
         image: '/public/img/projects/project-1.png',
