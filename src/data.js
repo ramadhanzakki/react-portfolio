@@ -1,4 +1,4 @@
-const DataTools = [
+export const DataTools = [
     {
         id: 1,
         toolName: "HTML",

@@ -4,13 +4,13 @@ import './index.css'
 import Navbar from './components/Navbar.jsx'
 import Hero from './layout/Hero.jsx'
 import AboutMe from './layout/AboutMe.jsx'
+import Tools from './layout/Tools.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div>
-      <Navbar />
-      <Hero />
-      <AboutMe />
-    </div>
+    <Navbar />
+    <Hero />
+    <AboutMe />
+    <Tools />
   </StrictMode>,
 )
