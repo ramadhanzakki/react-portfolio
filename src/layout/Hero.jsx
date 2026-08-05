@@ -3,9 +3,9 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 const Hero = () => {
     return (
-        <div className='container mx-auto px-8 lg:px-20'>
+        <div className='container mx-auto px-8 lg:px-20 h-[70vh]'>
             <div className="pt-8 grid grid-cols-2">
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center gap-3">
                     <h3 className="text-base font-normal uppercase px-3 py-1 text-shadow-cozy-bg bg-brand-cinnamon max-w-fit rounded-lg mb-2">programmer</h3>
                     <h1 className="text-6xl font-bold text-cozy-text">
                         I'  m <span className="text-brand-terracotta">Ramadhan Zakki</span>
