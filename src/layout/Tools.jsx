@@ -4,7 +4,7 @@ const Tools = () => {
     return (
         <>
             <div className="py-16 container mx-auto px-8 lg:px-20 flex flex-col items-center">
-                <h3 className="text-base font-normal uppercase px-3 py-1 text-shadow-cozy-bg bg-brand-cinnamon max-w-fit rounded-lg mb-2">My Tech Toolbox</h3>
+                <h3 className="text-brand-amber font-semibold tracking-wider text-lg uppercase">My Tech Toolbox</h3>
                 <p className="text-base font-normal text-cozy-muted">Here are a few technologies I used when I worked</p>
                 <div className="mt-14 w-full grid grid-cols-3 grid-rows-3 gap-4">
 

@@ -6,7 +6,7 @@ const Project = () => {
     return (
         <div className="">
             <div className="container mx-auto px-8 lg:px-20 py-16 flex flex-col items-center">
-                <h3 className="text-base font-normal uppercase px-3 py-1 text-shadow-cozy-bg bg-brand-cinnamon max-w-fit rounded-lg mb-2">Projets</h3>
+                <h3 className="text-brand-amber font-semibold tracking-wider text-lg uppercase">Projects</h3>
                 <p className="text-base font-normal text-cozy-muted">Some of my recent work</p>
                 <div className="mt-14 grid grid-cols-3 gap-4">
                     {ProjectList.map(project => (
