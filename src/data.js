@@ -69,3 +69,22 @@ export const ProjectList = [
         link: 'https://github.com/ramadhanzakki/katalog-sumbermanis'
     },
 ]
+
+export const SocialMediaList = [
+    {
+        svg: './icons/GitHub.jsx',
+        link: 'https://github.com/ramadhanzakki',
+    },
+    {
+        svg: './icons/LinkedIn.jsx',
+        link: 'https://github.com/ramadhanzakki',
+    },
+    {
+        svg: './icons/Instagram.jsx',
+        link: 'https://www.instagram.com/rmdhnzakki__/',
+    },
+    {
+        svg: './icons/TikTok.jsx',
+        link: 'https://www.tiktok.com/@ramadhanzakki21_',
+    },
+]
