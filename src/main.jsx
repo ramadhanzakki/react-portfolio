@@ -7,6 +7,7 @@ import AboutMe from './layout/AboutMe.jsx'
 import Tools from './layout/Tools.jsx'
 import Project from './layout/Project.jsx'
 import Contact from './layout/Contact.jsx'
+import Footer from './layout/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,5 +17,6 @@ createRoot(document.getElementById('root')).render(
     <Tools />
     <Project />
     <Contact />
+    <Footer />
   </StrictMode>,
 )
