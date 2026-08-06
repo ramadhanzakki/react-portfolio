@@ -6,13 +6,13 @@ import { RiTargetFill } from "react-icons/ri";
 const AboutMe = () => {
     return (
         <div className='bg-cozy-card'>
-            <div className="container mx-auto px-8 lg:px-20 py-16 mt-16 grid grid-cols-2">
+            <div className="container mx-auto px-8 lg:px-20 py-16 mt-16 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-6 lg:gap-10">
 
                 {/* Desc */}
-                <div className="w-full flex flex-col gap-1.5">
+                <div className="w-full flex flex-col gap-3 md:gap-1.5 justify-center">
                     <h3 className="text-brand-amber font-semibold tracking-wider text-lg uppercase">About Me</h3>
-                    <h2 className="text-2xl/snug font-semibold text-cozy-text w-2/3">First-year Computer Science student from Indonesia</h2>
-                    <p className="text-base/loose font-normal text-cozy-muted w-4/5">I'm learning to build software and exploring the world of programming step by step. I like turning ideas into small projects while improving my coding skills along the way.</p>
+                    <h2 className="text-xl md:text-2xl/snug font-semibold text-cozy-text w-full lg:w-2/3">First-year Computer Science student from Indonesia</h2>
+                    <p className="text-sm md:text-base/loose font-normal text-cozy-muted w-full lg:w-4/5">I'm learning to build software and exploring the world of programming step by step. I like turning ideas into small projects while improving my coding skills along the way.</p>
                 </div>
 
                 {/* Career */}

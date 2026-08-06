@@ -8,7 +8,7 @@ const Project = () => {
             <div className="container mx-auto px-8 lg:px-20 py-16 flex flex-col items-center">
                 <h3 className="text-brand-amber font-semibold tracking-wider text-lg uppercase">Projects</h3>
                 <p className="text-base font-normal text-cozy-muted">Some of my recent work</p>
-                <div className="mt-14 grid grid-cols-3 gap-4">
+                <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {ProjectList.map(project => (
                         <div className="flex flex-col rounded-2xl bg-cozy-card border-2 border-cozy-border overflow-hidden" key={project.id}>
                             <img src={project.image} alt="Project Image"/>
