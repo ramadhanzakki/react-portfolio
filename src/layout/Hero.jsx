@@ -18,12 +18,12 @@ const Hero = () => {
                     </p> */}
                     <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 w-full mx-auto lg:mx-0">
                         <div className="group">
-                            <a href="#" className="flex justify-center items-center gap-1 py-4 px-6 border-2 border-brand-cinnamon bg-brand-cinnamon rounded-lg text-base font-medium group-hover:bg-brand-terracotta group-hover:border-brand-terracotta">
+                            <a href="#" className="mt-2 bg-brand-cinnamon hover:bg-brand-terracotta text-cozy-text px-6 py-3 rounded-xl font-medium flex items-center gap-2 transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-brand-cinnamon/20">
                             View My Work <MdOutlineArrowOutward />
                             </a>
                         </div>
                         <div className="group">
-                            <a href="#" className="flex justify-center items-center gap-1 py-4 px-6 border-2 rounded-lg border-white text-base font-medium group-hover:border-brand-amber group-hover:text-brand-amber">
+                            <a href="#" className="mt-2 border-2 border-cozy-border hover:border-brand-amber text-cozy-text hover:text-brand-amber px-6 py-3 rounded-xl font-medium flex items-center gap-2 transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-brand-cinnamon/20">
                             Download CV <AiOutlineDownload />
                             </a>
                         </div>
