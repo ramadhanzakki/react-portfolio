@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "motion/react"
 
 
-const ResponsiveNavbar = ({open}) => {
+const ResponsiveNavbar = ({open, setOpen}) => {
     return (
         <AnimatePresence>
             {
@@ -14,11 +14,11 @@ const ResponsiveNavbar = ({open}) => {
                     >
                         <div className="text-xl uppercase font-semibold bg-brand-amber text-cozy-text py-10 m-6 rounded-xl">
                             <ul className="flex flex-col justify-center items-center gap-5">
-                                <li>home</li>
-                                <li>about</li>
-                                <li>skills</li>
-                                <li>projects</li>
-                                <li>contact</li>
+                                <li className="hover:text-white transition-colors" onClick={() => setOpen(false)}><a href="#home">Home</a></li>
+                                <li className="hover:text-white transition-colors" onClick={() => setOpen(false)}><a href="#about">About</a></li>
+                                <li className="hover:text-white transition-colors" onClick={() => setOpen(false)}><a href="#skill">Skills</a></li>
+                                <li className="hover:text-white transition-colors" onClick={() => setOpen(false)}><a href="#project">Project</a></li>
+                                <li className="hover:text-white transition-colors" onClick={() => setOpen(false)}><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </motion.div>
