@@ -6,6 +6,7 @@ import Hero from './layout/Hero.jsx'
 import AboutMe from './layout/AboutMe.jsx'
 import Tools from './layout/Tools.jsx'
 import Project from './layout/Project.jsx'
+import Contact from './layout/Contact.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <AboutMe />
     <Tools />
     <Project />
+    <Contact />
   </StrictMode>,
 )
