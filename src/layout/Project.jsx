@@ -4,7 +4,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const Project = () => {
     return (
-        <div className="">
+        <div id="project" className="">
             <div className="container mx-auto px-8 lg:px-20 py-16 flex flex-col items-center">
                 <h3 className="text-brand-amber font-semibold tracking-wider text-lg uppercase">Projects</h3>
                 <p className="text-base font-normal text-cozy-muted">Some of my recent work</p>

@@ -5,7 +5,7 @@ import { RiTargetFill } from "react-icons/ri";
 
 const AboutMe = () => {
     return (
-        <div className='bg-cozy-card'>
+        <div id="about" className='bg-cozy-card'>
             <div className="container mx-auto px-8 lg:px-20 py-16 mt-16 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-6 lg:gap-10">
 
                 {/* Desc */}
@@ -16,7 +16,7 @@ const AboutMe = () => {
                 </div>
 
                 {/* Career */}
-                <div className="grid grid-cols-2 grid-rows-2 gap-12">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 w-full">
                     <div className="w-full flex justify-start items-center gap-3">
                         <div className="text-4xl bg-brand-cinnamon p-3 rounded-lg">
                             <IoCodeSlashSharp />

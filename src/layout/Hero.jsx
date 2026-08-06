@@ -3,7 +3,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 const Hero = () => {
     return (
-        <div className='container mx-auto px-8 lg:px-20 min-h-[70vh] h-auto lg:h-[70vh]'>
+        <div id="home" className='container mx-auto px-8 lg:px-20 min-h-[70vh] h-auto lg:h-[70vh]'>
             <div className="pt-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
                 <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left gap-4 lg:gap-3 order-2 lg:order-1">
                     <h3 className="text-brand-amber font-semibold tracking-wider text-lg uppercase">programmer</h3>
@@ -16,7 +16,7 @@ const Hero = () => {
                         step by step. I like turning ideas into small projects while improving
                         my coding skills along the way.
                     </p> */}
-                    <div className="flex justify-start items-center gap-4 max-w-fit">
+                    <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 w-full mx-auto lg:mx-0">
                         <div className="group">
                             <a href="#" className="flex justify-center items-center gap-1 py-4 px-6 border-2 border-brand-cinnamon bg-brand-cinnamon rounded-lg text-base font-medium group-hover:bg-brand-terracotta group-hover:border-brand-terracotta">
                             View My Work <MdOutlineArrowOutward />

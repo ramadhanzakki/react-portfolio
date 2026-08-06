@@ -44,7 +44,7 @@ const Navbar = () => {
 
                         {/* Mobile hamburger Menu */}
                         <div>
-                            <ResponsiveNavbar open={open} />
+                            <ResponsiveNavbar open={open} setOpen={setOpen} />
                         </div>
                     </div>
                 </nav>
