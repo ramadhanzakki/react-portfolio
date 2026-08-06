@@ -20,7 +20,7 @@ const Navbar = () => {
 
                     {/* Desktop Menu */}
                     <div>
-                        <ul className="sm:flex items-center gap-3 hidden">
+                        <ul className="md:flex items-center gap-3 hidden">
                             <li className="group">
                                 <a href="#home" className="text-base lg:text-lg font-medium block transition-transform ease-in-out group-hover:-translate-y-1/5 active:text-brand-amber">Home</a>
                             </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
                             </li>
                         </ul>
 
-                        <div className="block sm:hidden text-4xl" onClick={() => setOpen(!open)}>
+                        <div className="block md:hidden text-4xl" onClick={() => setOpen(!open)}>
                             <FiMenu />
                         </div>
 

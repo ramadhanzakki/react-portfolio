@@ -3,14 +3,14 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 const Hero = () => {
     return (
-        <div className='container mx-auto px-8 lg:px-20 h-[70vh]'>
-            <div className="pt-8 grid grid-cols-2">
-                <div className="flex flex-col justify-center gap-3">
+        <div className='container mx-auto px-8 lg:px-20 min-h-[70vh] h-auto lg:h-[70vh]'>
+            <div className="pt-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+                <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left gap-4 lg:gap-3 order-2 lg:order-1">
                     <h3 className="text-brand-amber font-semibold tracking-wider text-lg uppercase">programmer</h3>
-                    <h1 className="text-6xl font-bold text-cozy-text">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-cozy-text">
                         I'  m <span className="text-brand-terracotta">Ramadhan Zakki</span>
                     </h1>
-                    <h2 className="text-2xl font-semibold text-cozy-text mb-4">College student with passionate about software engginer and AI</h2>
+                    <h2 className="text-lg md:text-xl lg:text-2xl font-semibold text-cozy-text mb-4">College student with passionate about software engginer and AI</h2>
                     {/* <p className="text-base font-normal text-cozy-text mb-6 max-w-4/5">
                         I'm learning to build software and exploring the world of programming
                         step by step. I like turning ideas into small projects while improving
@@ -29,9 +29,9 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative ml-auto Passengers, in a few moments, prepare yourself for your own safety. It is forbidden to open the train before the train completely stops. Thank you for choosing. when they could be Indonesia. See you on the next trip. Tier passengers in a few moments we will arrive at if you end your trip at Lida Station, please prepare yourself and check your logins for your own safety. It is permitted to open the train store before the train completely stops. Thank you for choosing where the clinic be Indonesia. See you on the next trip">
-                    <img src="/public/img/photo ku-Picsart-AiImageEnhancer.png" alt="photo profile" className="mx-auto w-125"/>
-                    <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 translate-y-7    ">
+                <div className="relative mx-auto lg:ml-auto order-1 lg:order-2 w-full flex justify-center lg:block">
+                    <img src="/public/img/photo ku-Picsart-AiImageEnhancer.png" alt="photo profile" className="mx-auto w-3/4 md:w-2/3 lg:w-125"/>
+                    <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 translate-y-7 lg:translate-y-12">
                         <svg viewBox="0 0 200 200" width="500" xmlns="http://www.w3.org/2000/svg">
                             <defs>
                                 <linearGradient
